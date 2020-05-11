@@ -1,0 +1,33 @@
+.no1{
+	background:url(../img/background.jpg) center 0;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:#fff;
+	text-align: center;
+	font-size:40px;
+	display: flex;
+	align-items: center;/*对齐*/
+}
+hr{
+	border:1px dashed rgba(255,255,255,0.2);
+
+}
+.height{
+	width: 100%;
+}
+.height>div{
+	cursor: pointer;
+}
+.height>div:nth-of-type(4){
+	background:url(../img/whoweare.png);
+	width: 158px;
+	height: 32px;
+	cursor:default;
+	margin:0 auto;
+	position: absolute;
+	bottom: 15%;
+	left: 50%;
+	margin-left: -79px; 
+	 
+}
